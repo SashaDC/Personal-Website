@@ -1,0 +1,396 @@
+// Oldest to newest blogs, eg: first blog is the oldest, last blog is the newest.
+// Add dates later
+
+export const blogs = [
+  {
+    id: 1,
+    title: 'Dev Academy Identity, Values, and Strengths Reflection',
+    description:
+      'This post reflects on how my background and experiences shaped my values, strengths, limitations, and lessons that I’ll carry forward as I grow in software development.',
+    blog: (
+      <>
+        <h2>Ethical Decision</h2>
+        <p>
+          To be honest, I haven't really faced a situation where I had to make
+          an ethical decision and weigh the options. Being still quite young, I
+          haven’t had many experiences that required this level of reflection.
+        </p>
+
+        <h2>Cultural Influence and Identity</h2>
+        <p>
+          I’m Pākehā and grew up in Whangarei. My upbringing was in a somewhat
+          large and dysfunctional family, with my parents separating before I
+          could even remember. By the time I was halfway through intermediate
+          school, I had become self-reliant and a bit closed off due to neglect
+          from both parents.
+        </p>
+        <p>
+          During high school, I built a good friend group that influenced me to
+          value companionship, honesty, and integrity—values I continue to
+          uphold to this day.
+        </p>
+
+        <h2>Strengths</h2>
+        <ul>
+          <li>Adaptability: Able to adjust to my surrounding environment.</li>
+          <li>
+            Analytical/Critical Problem-solving: Skilled at identifying and
+            resolving problems effectively.
+          </li>
+          <li>
+            Honesty and Integrity: Willing to take accountability and admit to
+            mistakes.
+          </li>
+        </ul>
+        <p>
+          These strengths will help me navigate the challenges of learning
+          software development and stay focused on my coursework throughout the
+          year.
+        </p>
+
+        <h2>Limitations</h2>
+        <ul>
+          <li>Forgetfulness</li>
+          <li>Procrastination</li>
+          <li>
+            Neurotic tendencies: Overthinking and worrying, as highlighted in an
+            “Academic Strengths and Weaknesses” Q&A.
+          </li>
+        </ul>
+        <p>
+          These limitations can sometimes cloud my focus and create self-doubt.
+          However, I am committed to overcoming these challenges as I progress
+          through my learning journey.
+        </p>
+
+        <h2>Working Productively with Others</h2>
+        <p>
+          One example of working with others under tension comes from my work
+          experience as a supervisor. I had two coworkers who were decent people
+          but tended to slack off, which increased my workload.
+        </p>
+        <p>I tried to address the issue by:</p>
+        <ul>
+          <li>Discussing the problem directly with them.</li>
+          <li>
+            Experimenting with strategies such as working alongside them or
+            separating them to improve focus.
+          </li>
+        </ul>
+        <p>
+          Although they initially agreed, the plan was largely ignored after a
+          few weeks, leading to an entire department meeting.
+        </p>
+        <p>
+          Reflecting on this, I realize I may have been too lenient, as I had
+          just become a supervisor and could have enforced expectations more
+          firmly. At the time, there weren’t many strategies I could employ,
+          since the only person they responded to was our manager.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 2,
+    title: 'Dev Academy Learning Plans',
+    description:
+      'This post outlines my learning goals, strengths, challenges, and commitments I made across both Foundations and Bootcamp at Dev Academy, with a focus on developing as a developer through stronger human skills, accountability, and managing my workload effectively.',
+    blog: (
+      <>
+        <h2>Bootcamp</h2>
+
+        <h3>Long-Term Goal / Career Pathway</h3>
+        <p>
+          Although I'm not entirely sure on the exact destination or impact I'd
+          want to make in the future, I hope to use the skills I gain from this
+          course to find a decent, well-paying job that allows me to grow as a
+          developer.
+        </p>
+
+        <h3>Strengths and Limitations</h3>
+        <p>
+          My strengths haven't really changed since Sprint 2, but I've worked on
+          overcoming my limitations and have improved on procrastination,
+          focusing more effectively on my tasks.
+        </p>
+
+        <h3>Biggest Non-Technical Challenge</h3>
+        <p>
+          The biggest non-technical challenge I expect is working and speaking
+          in front of a group.
+        </p>
+
+        <h3>Human Skills to Develop</h3>
+        <p>
+          I aim to develop skills such as giving and receiving feedback,
+          leadership, and improving self-awareness and reflective practices.
+        </p>
+
+        <h3>Expectations from the Bootcamp Team</h3>
+        <p>
+          I expect guidance and support similar to what I anticipated from the
+          Facilitation team previously.
+        </p>
+
+        <h3>Expectations of Myself</h3>
+        <p>
+          I expect to stay on top of my workload by limiting distractions,
+          working productively, and maintaining professional and respectful
+          relationships with other learners, facilitators, and
+          industry/community representatives.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2>Foundations</h2>
+
+        <h3>Long-Term Goal / Career Pathway</h3>
+        <p>
+          My long-term goal is to become a successful software developer by
+          improving my knowledge and skills and continuing to grow within the
+          industry.
+        </p>
+
+        <h3>Strengths and Limitations in Learning</h3>
+        <p>
+          <strong>Strengths:</strong> I can learn quickly, am determined to
+          complete tasks, and know when to ask for help.
+        </p>
+        <p>
+          <strong>Limitations:</strong> I am prone to procrastination and
+          distractions, sometimes taking extended periods to regain focus. I
+          also find that coding or learning late at night works best for me,
+          though it can be challenging if support from others isn’t available at
+          those times.
+        </p>
+
+        <h3>Human Skills to Develop</h3>
+        <p>
+          I aim to build confidence, communication, and creativity/imagination,
+          as gaps in these areas could hinder my growth as a developer.
+        </p>
+
+        <h3>Commitment to Managing Workload</h3>
+        <ul>
+          <li>Be online and working by 8am each day</li>
+          <li>Take 15-minute breaks when stuck to problem-solve effectively</li>
+          <li>Prioritize coursework over distractions</li>
+          <li>Ask for support when needed</li>
+          <li>
+            Maintain professional and respectful relationships with facilitators
+            and learners
+          </li>
+          <li>
+            Communicate with facilitators if things start to build up and become
+            overwhelming
+          </li>
+        </ul>
+
+        <h3>Commitment to Seeking Help</h3>
+        <p>
+          I will ask for help in a timely manner from other learners or
+          facilitators via Discord or private messages during their active
+          hours.
+        </p>
+
+        <h3>Expectations from the Facilitation Team</h3>
+        <p>
+          I expect guidance to understand problems better, not direct solutions,
+          helping me learn to solve them independently.
+        </p>
+
+        <h3>Scheduling / Block-Out Times</h3>
+        <p>
+          I work part-time, so my block-out times are Monday to Wednesday, 3pm
+          to 10:30pm. I will prioritize coursework above extra shifts and
+          currently have no other commitments.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 3,
+    title: 'Dev Academy Emotional Intelligence Research',
+    description:
+      'This post showcases the research I did on what emotional intelligence is, how it differs from IQ, and why I see EQ as important for building relationships, making better decisions, and developing leadership skills.',
+    blog: (
+      <>
+        <h2>What is Emotional Intelligence?</h2>
+        <p>
+          Emotional Intelligence (EQ) is the ability to understand, manage, and
+          express your own emotions while also recognizing and responding to the
+          emotions of people around you.
+        </p>
+
+        <h2>How is EQ Different from IQ?</h2>
+        <p>
+          EQ differs from IQ in that it focuses on emotional abilities and
+          social skills, whereas IQ refers to cognitive abilities like
+          problem-solving and analytical thinking.
+        </p>
+
+        <h2>Why is EQ Important?</h2>
+        <p>
+          EQ is important because it helps people understand and manage their
+          own emotions as well as the emotions of others. High EQ improves
+          relationships, enhances decision-making, and contributes to effective
+          leadership skills.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 4,
+    title: 'Dev Academy Neuroplasticity and Growth Mindset Research',
+    description:
+      'This post showcases the research I did that explores neuroplasticity and growth mindset, focusing on how the brain’s ability to change supports learning through repetition and challenge, and how adopting a growth mindset supports my ongoing development.',
+    blog: (
+      <>
+        <h2>Neuroplasticity</h2>
+
+        <h3>Benefits of Understanding Neuroplasticity</h3>
+        <p>
+          Neuroplasticity is the idea that our brains don’t stop growing after a
+          certain age but are malleable like plastic. This allows us to learn,
+          adapt, and strengthen the connections in our brain. By using
+          repetitive actions and positive experiences, we can learn new things
+          more effectively as these experiences reinforce brain connections,
+          improving recall and application of knowledge.
+        </p>
+
+        <h3>How I Might Engage with Neuroplasticity</h3>
+        <p>
+          I plan to engage with neuroplasticity by coding every day, even for
+          just an hour or two, and challenging myself with coding problems and
+          sprint exercises. This repetitive practice helps build stronger “brain
+          connections” through repetition and problem-solving.
+        </p>
+
+        <h3>Ways to Increase Neuroplasticity</h3>
+        <ul>
+          <li>Repetition</li>
+          <li>Positive Emotions</li>
+          <li>Reducing Stress</li>
+          <li>Challenging Oneself</li>
+          <li>Sleep</li>
+          <li>And many more</li>
+        </ul>
+
+        <h3>Useful Resource</h3>
+        <p>
+          <a
+            href="https://www.verywellmind.com/neuroplasticity-4157193"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            Verywell Mind: How Neuroplasticity Works
+          </a>
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2>Growth Mindset</h2>
+
+        <h3>What It Is and Why It’s Relevant</h3>
+        <p>
+          A Growth Mindset is the belief that a person’s abilities or
+          intelligence can improve through perseverance, hard work, and belief
+          in oneself. It is relevant because it impacts how we approach
+          challenges and learning, which is especially important for students at
+          Dev Academy.
+        </p>
+
+        <h3>Personal Reflection</h3>
+        <p>
+          Nothing particularly surprised me, as I had already learned about
+          Fixed vs. Growth Mindsets during high school.
+        </p>
+
+        <h3>Integrating a Growth Mindset</h3>
+        <p>
+          I feel I already apply a growth mindset in my approach to learning and
+          problem-solving, though I will continue to reinforce it throughout my
+          development journey.
+        </p>
+
+        <h3>Useful Resource</h3>
+        <p>
+          <a
+            href="https://www.educationhub.org.nz/an-introduction-to-growth-mindset/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            The Education Hub: An Introduction to Growth Mindset
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 5,
+    title: 'Dev Academy Problem Solving Reflection',
+    description:
+      'This post reflects on my coding problem-solving experiences, including working through simple blocks, using techniques like pseudocode and rubber-duck debugging, and becoming more confident about asking for help when I need it.',
+    blog: (
+      <>
+        <h2>Being Blocked on a Simple Problem</h2>
+        <p>
+          One time I was blocked during the "gradebook" challenge, where I had
+          to add each student from an array into an empty object and then add
+          each student’s scores, which were arrays within an array, into the
+          student scores key.
+        </p>
+        <p>
+          The problem-solving techniques I tried included the rubber ducky
+          method, pseudocode to break down each part of my code, and asking
+          someone for help. I felt slightly overwhelmed because it seemed
+          simple, but I kept overcomplicating it by trying to automate too much.
+        </p>
+        <p>
+          <strong>Lesson Learned:</strong> Sometimes the best approach is to
+          simplify the problem and not overthink it. Asking someone else to look
+          at your code is always helpful.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2>Elegantly Solving a Problem</h2>
+        <p>
+          A time I solved a problem elegantly was during the "whereAreYou"
+          challenge. I used the Googling method to learn about the{' '}
+          <code>.find()</code> method, then applied the rubber duck method to
+          implement it successfully. Completing the challenge made me feel
+          accomplished and motivated me to explore other JavaScript methods in
+          my free time.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2>Confidence in Problem-Solving Techniques</h2>
+        <ul>
+          <li>Pseudocode</li>
+          <li>Rubber ducky method</li>
+          <li>Reading error messages carefully</li>
+          <li>Console logging for debugging</li>
+        </ul>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2>Reluctance to Ask for Help</h2>
+        <p>
+          During the "gradebook" challenge, I was initially reluctant to ask for
+          help because it seemed like a simple problem and no one else had asked
+          in the Discord help channel. I now realize many others had similar
+          difficulties but were also hesitant to ask.
+        </p>
+        <p>
+          <strong>Reflection:</strong> Next time, I will be more confident in
+          asking for help, understanding that seeking guidance is a normal and
+          helpful part of problem-solving.
+        </p>
+      </>
+    ),
+  },
+]
