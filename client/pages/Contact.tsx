@@ -1,3 +1,5 @@
+import { CV } from '../components/Buttons'
+
 export default function Contact() {
   // Contact page content
   // Needs: contact details, new navbar
@@ -11,9 +13,10 @@ export default function Contact() {
         reach out!
       </p>
       {/* gonna make these clickable icons that link to the respective platforms later */}
-      <p>email: sasha@example.com</p>
-      <p>github: github.com/sasha</p>
-      <p>linkedin: linkedin.com/in/sasha</p>
+      <p>email: contact@sashachambers.dev</p>
+      <p>github: github.com/SashaDC</p>
+      <p>linkedin: linkedin.com/in/sashachambers/</p>
+      <CV />
     </div>
   )
 }
