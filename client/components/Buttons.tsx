@@ -13,14 +13,6 @@ export function Back() {
   )
 }
 
-export function CV() {
-  return (
-    <a href="public/Sasha Chambers CV.pdf" download>
-      Download CV
-    </a>
-  )
-}
-
 export function ToTheTop() {
   const [visible, setVisible] = useState(false)
 
