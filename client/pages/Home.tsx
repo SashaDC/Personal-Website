@@ -5,9 +5,9 @@ export default function Home() {
   // Needs: name, Title, navbar, last updated date
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center bg-[url(public/test.png)]"
+      className="min-h-screen flex flex-col items-center justify-center bg-[url(/test.png)]"
       style={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('public/test.png')`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/test.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

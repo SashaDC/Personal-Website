@@ -33,7 +33,7 @@ export default function PostListings({ posts }: { posts: Post[] }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="public/github-mark-white.svg"
+                  src="/github-mark-white.svg"
                   alt="github logo"
                   className="max-h-6 object-contain inline-block mr-2"
                 />
