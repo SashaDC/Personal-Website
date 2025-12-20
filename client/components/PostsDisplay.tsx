@@ -21,7 +21,9 @@ export default function PostListings({ posts }: { posts: Post[] }) {
             key={post.id}
             className="mb-6 max-w-2xl p-4 rounded-xl border border-gray-300"
           >
-            <h2 className="text-3xl font-semibold mb-2">{post.title}</h2>
+            <h2 className="text-3xl font-semibold mb-2 text-purple-400 ">
+              {post.title}
+            </h2>
             <p className="text-md mb-4">{post.description}</p>
             {post.link && (
               <a
