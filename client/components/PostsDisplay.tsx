@@ -128,9 +128,7 @@ export default function PostListings({ posts }: { posts: Post[] }) {
                     ×
                   </button>
                   <h2 className="text-3xl font-bold mb-4">{post.title}</h2>
-                  <div className="prose prose-invert max-w-none">
-                    {post.content}
-                  </div>
+                  <div className="max-w-none">{post.content}</div>
                 </div>
               </div>
             )}
