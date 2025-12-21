@@ -103,7 +103,7 @@ export const blogs = [
       <>
         <h2 className="text-xl font-semibold">Bootcamp</h2>
 
-        <h3>Long-Term Goal / Career Pathway</h3>
+        <h3 className="font-semibold">Long-Term Goal / Career Pathway</h3>
         <p className="mb-4">
           Although I'm not entirely sure on the exact destination or impact I'd
           want to make in the future, I hope to use the skills I gain from this
@@ -111,32 +111,32 @@ export const blogs = [
           developer.
         </p>
 
-        <h3>Strengths and Limitations</h3>
+        <h3 className="font-semibold">Strengths and Limitations</h3>
         <p className="mb-4">
           My strengths haven't really changed since Sprint 2, but I've worked on
           overcoming my limitations and have improved on procrastination,
           focusing more effectively on my tasks.
         </p>
 
-        <h3>Biggest Non-Technical Challenge</h3>
+        <h3 className="font-semibold">Biggest Non-Technical Challenge</h3>
         <p className="mb-4">
           The biggest non-technical challenge I expect is working and speaking
           in front of a group.
         </p>
 
-        <h3>Human Skills to Develop</h3>
+        <h3 className="font-semibold">Human Skills to Develop</h3>
         <p className="mb-4">
           I aim to develop skills such as giving and receiving feedback,
           leadership, and improving self-awareness and reflective practices.
         </p>
 
-        <h3>Expectations from the Bootcamp Team</h3>
+        <h3 className="font-semibold">Expectations from the Bootcamp Team</h3>
         <p className="mb-4">
           I expect guidance and support similar to what I anticipated from the
           Facilitation team previously.
         </p>
 
-        <h3>Expectations of Myself</h3>
+        <h3 className="font-semibold">Expectations of Myself</h3>
         <p className="mb-4">
           I expect to stay on top of my workload by limiting distractions,
           working productively, and maintaining professional and respectful
@@ -148,14 +148,14 @@ export const blogs = [
 
         <h2 className="text-xl font-semibold">Foundations</h2>
 
-        <h3>Long-Term Goal / Career Pathway</h3>
+        <h3 className="font-semibold">Long-Term Goal / Career Pathway</h3>
         <p className="mb-4">
           My long-term goal is to become a successful software developer by
           improving my knowledge and skills and continuing to grow within the
           industry.
         </p>
 
-        <h3>Strengths and Limitations in Learning</h3>
+        <h3 className="font-semibold">Strengths and Limitations in Learning</h3>
         <p className="mb-4">
           <strong>Strengths:</strong> I can learn quickly, am determined to
           complete tasks, and know when to ask for help.
@@ -168,13 +168,13 @@ export const blogs = [
           those times.
         </p>
 
-        <h3>Human Skills to Develop</h3>
+        <h3 className="font-semibold">Human Skills to Develop</h3>
         <p className="mb-4">
           I aim to build confidence, communication, and creativity/imagination,
           as gaps in these areas could hinder my growth as a developer.
         </p>
 
-        <h3>Commitment to Managing Workload</h3>
+        <h3 className="font-semibold">Commitment to Managing Workload</h3>
         <ul className="list-disc pl-5 mb-4">
           <li>Be online and working by 8am each day</li>
           <li>Take 15-minute breaks when stuck to problem-solve effectively</li>
@@ -190,20 +190,22 @@ export const blogs = [
           </li>
         </ul>
 
-        <h3>Commitment to Seeking Help</h3>
+        <h3 className="font-semibold">Commitment to Seeking Help</h3>
         <p className="mb-4">
           I will ask for help in a timely manner from other learners or
           facilitators via Discord or private messages during their active
           hours.
         </p>
 
-        <h3>Expectations from the Facilitation Team</h3>
+        <h3 className="font-semibold">
+          Expectations from the Facilitation Team
+        </h3>
         <p className="mb-4">
           I expect guidance to understand problems better, not direct solutions,
           helping me learn to solve them independently.
         </p>
 
-        <h3>Scheduling / Block-Out Times</h3>
+        <h3 className="font-semibold">Scheduling / Block-Out Times</h3>
         <p className="mb-4">
           I work part-time, so my block-out times are Monday to Wednesday, 3pm
           to 10:30pm. I will prioritize coursework above extra shifts and
@@ -254,7 +256,9 @@ export const blogs = [
       <>
         <h2 className="text-xl font-semibold">Neuroplasticity</h2>
 
-        <h3>Benefits of Understanding Neuroplasticity</h3>
+        <h3 className="font-semibold">
+          Benefits of Understanding Neuroplasticity
+        </h3>
         <p className="mb-4">
           Neuroplasticity is the idea that our brains don’t stop growing after a
           certain age but are malleable like plastic. This allows us to learn,
@@ -264,7 +268,9 @@ export const blogs = [
           improving recall and application of knowledge.
         </p>
 
-        <h3>How I Might Engage with Neuroplasticity</h3>
+        <h3 className="font-semibold">
+          How I Might Engage with Neuroplasticity
+        </h3>
         <p className="mb-4">
           I plan to engage with neuroplasticity by coding every day, even for
           just an hour or two, and challenging myself with coding problems and
@@ -272,7 +278,7 @@ export const blogs = [
           connections” through repetition and problem-solving.
         </p>
 
-        <h3>Ways to Increase Neuroplasticity</h3>
+        <h3 className="font-semibold">Ways to Increase Neuroplasticity</h3>
         <ul className="list-disc pl-5 mb-4">
           <li>Repetition</li>
           <li>Positive Emotions</li>
@@ -282,7 +288,7 @@ export const blogs = [
           <li>And many more</li>
         </ul>
 
-        <h3>Useful Resource</h3>
+        <h3 className="font-semibold">Useful Resource</h3>
         <p className="mb-4">
           <a
             href="https://www.verywellmind.com/neuroplasticity-4157193"
@@ -298,7 +304,7 @@ export const blogs = [
 
         <h2 className="text-xl font-semibold">Growth Mindset</h2>
 
-        <h3>What It Is and Why It’s Relevant</h3>
+        <h3 className="font-semibold">What It Is and Why It’s Relevant</h3>
         <p className="mb-4">
           A Growth Mindset is the belief that a person’s abilities or
           intelligence can improve through perseverance, hard work, and belief
@@ -307,20 +313,20 @@ export const blogs = [
           Dev Academy.
         </p>
 
-        <h3>Personal Reflection</h3>
+        <h3 className="font-semibold">Personal Reflection</h3>
         <p className="mb-4">
           Nothing particularly surprised me, as I had already learned about
           Fixed vs. Growth Mindsets during high school.
         </p>
 
-        <h3>Integrating a Growth Mindset</h3>
+        <h3 className="font-semibold">Integrating a Growth Mindset</h3>
         <p className="mb-4">
           I feel I already apply a growth mindset in my approach to learning and
           problem-solving, though I will continue to reinforce it throughout my
           development journey.
         </p>
 
-        <h3>Useful Resource</h3>
+        <h3 className="font-semibold">Useful Resource</h3>
         <p className="mb-4">
           <a
             href="https://www.educationhub.org.nz/an-introduction-to-growth-mindset/"
