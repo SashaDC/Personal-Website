@@ -23,7 +23,9 @@ export default function AboutMe() {
             <p className="text-gray-300 leading-relaxed">
               Hi! I'm Sasha, a junior full-stack developer from Whangārei, New
               Zealand. I recently completed my Level 6 Applied Software
-              Development qualification at Dev Academy Aotearoa, where I ___.
+              Development qualification at Dev Academy Aotearoa, where I
+              practised using human skills and problem-solving in full-stack
+              applications.
             </p>
           </section>
 
