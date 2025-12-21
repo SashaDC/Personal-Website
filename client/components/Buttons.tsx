@@ -6,7 +6,7 @@ export function Back() {
   return (
     <button
       onClick={() => navigate(-1)}
-      className=" bg-purple-600 rounded px-2.5 py-2 hover:bg-purple-700 hover:text-black transition mt-2 mb-4"
+      className=" bg-purple-600 rounded px-2.5 py-2 hover:bg-purple-700 hover:text-black transition hover:cursor-pointer mt-2 mb-4"
     >
       Back
     </button>
@@ -39,7 +39,7 @@ export function ToTheTop() {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-4 right-4 bg-purple-600 rounded px-2.5 py-2 hover:bg-purple-700 hover:text-black transition"
+      className="fixed bottom-4 right-4 bg-purple-600 rounded px-2.5 py-2 hover:bg-purple-700 hover:text-black transition hover:cursor-pointer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
