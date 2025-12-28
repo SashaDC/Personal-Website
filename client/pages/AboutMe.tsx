@@ -41,8 +41,8 @@ export default function AboutMe() {
               full-stack development bootcamp.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Throughout my training, I've built projects ranging from pixel art
-              creators to real-time messaging applications with WebSocket
+              Throughout my training, I've built projects ranging from a pixel art
+              creator to a real-time messaging applications with WebSocket
               integration. I love the challenge of learning new technologies and
               the satisfaction of seeing an idea come to life.
             </p>
@@ -54,13 +54,11 @@ export default function AboutMe() {
               What I'm Learning
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              I'm currently expanding my skillset by learning Python and C# to
-              become a more versatile developer. I'm also diving deeper into
-              WebSockets and real-time communication technologies after
-              implementing them in my recent projects.
+              I've currently put a pause on my projects temporarily right now as I'm further developing my current skills and learning new ones via LinkedIn Learning such as C#, Cloud Computing, and Python. 
+              I'm also doing some hands-on learning with [https://tryhackme.com](Tryhackme.com) to better my understanding on cyber security and ethical hacking.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              My goal is to join a collaborative team where I can continue
+              My overall goal is to join a collaborative team where I can continue
               learning, contribute meaningful work, and grow both as a developer
               and as a person.
             </p>
