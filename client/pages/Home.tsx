@@ -22,7 +22,7 @@ export default function Home() {
       </header>
       <Navbar />
       <footer className="w-full text-center fixed bottom-2 text-stone-300 drop-shadow-[0_4px_8px_rgba(0,0,0,1)]">
-        <p>(Last Updated: {new Date().toLocaleDateString()})</p>
+        <p>(Last Updated: 08/12/2026})</p>
       </footer>
     </div>
   )
