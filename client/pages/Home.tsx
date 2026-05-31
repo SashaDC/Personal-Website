@@ -1,8 +1,7 @@
 import Navbar from '../components/Navbar'
 
 export default function Home() {
-  // Home page content
-  // Needs: name, Title, navbar, last updated date
+  const lastUpdated = '' // Using GitHub Actions to auto update on push to main.
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center bg-[url(/test.png)]"
@@ -22,7 +21,7 @@ export default function Home() {
       </header>
       <Navbar />
       <footer className="w-full text-center fixed bottom-2 text-stone-300 drop-shadow-[0_4px_8px_rgba(0,0,0,1)]">
-        <p>(Last Updated: 08/12/2026})</p>
+        <p>(Last Updated: {lastUpdated})</p>
       </footer>
     </div>
   )
