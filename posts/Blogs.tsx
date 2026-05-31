@@ -1,5 +1,6 @@
 // Oldest to newest blogs, eg: first blog is the oldest, last blog is the newest.
 // Add dates later
+// Will convert to md files eventually
 
 export const blogs = [
   {
@@ -405,6 +406,88 @@ export const blogs = [
           <strong>Reflection:</strong> Next time, I will be more confident in
           asking for help, understanding that seeking guidance is a normal and
           helpful part of problem-solving.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 6,
+    title: '6 Months After Graduating From Dev Academy',
+    description:
+      'An honest look at the six months since graduating, from pentesting rabbit holes and Summer of Tech, to agentic coding, job hunting silence, and a commitment to keep building.',
+    content: (
+      <>
+        <h2 className="text-xl font-semibold">Where Have I Been?</h2>
+        <p className="mb-4">
+          December last year I graduated from Dev Academy. It's now almost six
+          months later, and I want to write about what that stretch has actually
+          looked like, not the highlight reel version but the real one.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2 className="text-xl font-semibold">
+          Pentesting and Breaking Things
+        </h2>
+        <p className="mb-4">
+          The first two months were genuinely interesting. I got into pentesting
+          through NATAS and TryHackMe, driven mostly by curiosity about how
+          systems fail and how you'd go about securing them properly. It wasn't
+          a career pivot, more a side thread I wanted to pull on. Eventually I
+          had enough grounding to put it to practical use: a friend let me test
+          his site, and what I found was more significant than either of us
+          anticipated. Multiple major vulnerabilities, most of them stemming
+          from how the site was originally structured. Rather than trying to
+          patch things at the surface level, he made the call to rebuild it
+          entirely, which felt like a solid outcome.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2 className="text-xl font-semibold">Summer of Tech and CV Work</h2>
+        <p className="mb-4">
+          Alongside that I joined Summer of Tech to pursue internship
+          opportunities, and spent some of those early months refining my CV to
+          make sure it was telling an accurate story about where I am as a
+          developer.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2 className="text-xl font-semibold">Agentic Coding</h2>
+        <p className="mb-4">
+          Around month three I started a non-credentialed program on agentic
+          coding, which I'm still working through with a couple of modules to
+          go. The focus is on learning how to genuinely incorporate AI into a
+          development workflow, not just using it as a shortcut but
+          understanding how to maintain full control and keep the quality of the
+          output yours. It's already shifted how I think about building things.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2 className="text-xl font-semibold">The Harder Part</h2>
+        <p className="mb-4">
+          The stretch from month three to now has been harder to talk about.
+          Being sick on and off, working to cover bills, and the grind of job
+          hunting with minimal response from applications and interviews has all
+          compounded over time. That's also reflected in my GitHub where my
+          commits and activity have been pretty sparse. When motivation takes a
+          hit it tends to hit everything at once, and that's been the reality of
+          it.
+        </p>
+
+        <hr className="my-4 border-gray-600" />
+
+        <h2 className="text-xl font-semibold">What's Next</h2>
+        <p className="mb-4">
+          What I'm taking into the next phase is a simple commitment: a few
+          hours a week to code, even if it's nothing flashy. I've got two
+          projects lined up to start with: a remake of a Python quiz script I
+          made in high school to get my Python back up to scratch, and a Club
+          Penguin style multiplayer game to properly learn WebSockets and how to
+          build something with real-time functionality. Nothing groundbreaking,
+          but they're real and they're started and that's the point.
         </p>
       </>
     ),
