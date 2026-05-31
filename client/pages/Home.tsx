@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
 
 export default function Home() {
-  const lastUpdated = '' // Using GitHub Actions to auto update on push to main.
+  const lastUpdated = '31/05/2026' // Using GitHub Actions to auto update on push to main.
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center bg-[url(/test.png)]"
